@@ -1,0 +1,228 @@
+﻿@{
+    ViewBag.Title = "Home";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+
+}
+@section featured {
+
+    <div class="wrapper">
+	<div class="header">
+		
+	</div>
+	<div class="main main-raised">
+	    <div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card card-nav-tabs">
+							<div class="header header-primary">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li>
+												<h5>List Pengumuman Permintaan </h5>
+											
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<form>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group ">
+													
+												<input type="text" class="form-control datepicker" placeholder="Tanggal Awal">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group ">
+												<input type="text" class="form-control datepicker" placeholder="Tanggal Akhir">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-9">
+											<div class="form-group ">
+												<input type="text" class="form-control" placeholder="Nama Permintaan" >
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="form-group ">
+												<button class="btn btn-primary btn-fab btn-fab-mini">
+													<i class="material-icons">search</i>
+												</button>
+												<button class="btn btn-primary btn-fab btn-fab-mini">
+													<i class="material-icons">autorenew</i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li>
+												<h5>List Pengumuman Hasil Penawaran </h5>
+											
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<form>
+									<div class="row">
+										<div class="col-md-6">
+											<div class="form-group  has-success">
+													
+												<input type="text" class="form-control datepicker" placeholder="Tanggal Awal">
+											</div>
+										</div>
+										<div class="col-md-6">
+											<div class="form-group  has-success">
+												<input type="text" class="form-control datepicker" placeholder="Tanggal Akhir">
+											</div>
+										</div>
+									</div>
+									<div class="row">
+										<div class="col-md-9">
+											<div class="form-group  has-success">
+												<input type="text" class="form-control" placeholder="Nama Permintaan" >
+											</div>
+										</div>
+										<div class="col-md-3">
+											<div class="form-group ">
+												<button class="btn btn-success btn-fab btn-fab-mini">
+													<i class="material-icons">search</i>
+												</button>
+												<button class="btn btn-success btn-fab btn-fab-mini">
+													<i class="material-icons">autorenew</i>
+												</button>
+											</div>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+	    </div> <!-- end of section search -->
+		<div class="section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<div class="card card-nav-tabs">
+							<div class="header header-primary">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li>
+												<h5>List Pengumuman Permintaan </h5>
+											
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<table class="table">
+												<thead class="text-primary">
+													<th>#</th>
+													<th>Tanggal Pengumuman</th>
+													<th>Nama Permintaan</th>
+													<th>&nbsp;</th>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1</td>
+														<td>05 - 07 - 2017</td>
+														<td>Pengadaan Alat-alat Kantor (ATK)</td>
+														<td class="td-actions text-center">
+															<button type="button" rel="tooltip" title="Lihat Pengumuman" class="btn btn-primary btn-simple btn-xs">
+																<i class="material-icons">visibility</i>
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>2</td>
+														<td>05 - 02 - 2017</td>
+														<td>Pengadaan percetakan digital</td>
+														<td class="td-actions text-center">
+															<button type="button" rel="tooltip" title="Lihat Pengumuman" class="btn btn-primary btn-simple btn-xs">
+																<i class="material-icons">visibility</i>
+															</button>
+														</td>
+													</tr>
+												</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-6">
+						<div class="card card-nav-tabs">
+							<div class="header header-success">
+								<!-- colors: "header-primary", "header-info", "header-success", "header-warning", "header-danger" -->
+								<div class="nav-tabs-navigation">
+									<div class="nav-tabs-wrapper">
+										<ul class="nav nav-tabs" data-tabs="tabs">
+											<li>
+												<h5>List Pengumuman Hasil Penawaran </h5>
+											
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content">
+								<table class="table">
+												<thead class="text-success">
+													<th>#</th>
+													<th>Tanggal Pengumuman</th>
+													<th>Nama Permintaan</th>
+													<th>&nbsp;</th>
+												</thead>
+												<tbody>
+													<tr>
+														<td>1</td>
+														<td>05 - 07 - 2017</td>
+														<td>Pengadaan Alat-alat Kantor (ATK)</td>
+														<td class="td-actions text-center">
+															<button type="button" rel="tooltip" title="Lihat Pengumuman" class="btn btn-success btn-simple btn-xs">
+																<i class="material-icons">visibility</i>
+															</button>
+														</td>
+													</tr>
+													<tr>
+														<td>2</td>
+														<td>05 - 02 - 2017</td>
+														<td>Pengadaan percetakan digital</td>
+														<td class="td-actions text-center">
+															<button type="button" rel="tooltip" title="Lihat Pengumuman" class="btn btn-success btn-simple btn-xs">
+																<i class="material-icons">visibility</i>
+															</button>
+														</td>
+													</tr>
+												</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>		
+</div>
+}
